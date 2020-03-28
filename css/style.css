@@ -1,0 +1,42 @@
+html {}
+
+body {
+    background-color: #EEEEEE;
+    font-family: 'Rubik', 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+}
+
+* {}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Rubik', 'Nunito', sans-serif;
+}
+
+.rubic-sub-nav {
+    font-family: 'Rubik', 'Nunito', sans-serif;
+    /* font-family:  sans-serif; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    /* identical to box height */
+    color: #FFFFFF !important;
+}
+
+.rubic-sub-nav a,
+.rubic-sub-nav i {
+    color: #FFFFFF !important;
+}
+
+.rubic-sub-nav a:hover,
+.rubic-sub-nav i:hover {
+    color: rgb(247, 247, 247) !important;
+}
