@@ -22,13 +22,36 @@
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     .md-none {
         display: none !important;
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
+    .md-none {
+        display: none !important;
+    }
+    .container.rubic-fluid {
+        width: 100% !important;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .rubic-sub-nav .nav-link {
+        display: block;
+        padding: 0.5rem 0.5rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 800px) {
+    .sm-none {
+        display: none !important;
+    }
+}
+
+@media (max-width: 768px) {
     .xs-none {
         display: none !important;
     }

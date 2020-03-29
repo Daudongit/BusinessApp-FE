@@ -71,3 +71,7 @@ h6 {
 .rubic-footer i:hover {
     color: rgb(247, 247, 247) !important;
 }
+
+.bg-auth {
+    background: rgba(255, 255, 255, 0.5);
+}
