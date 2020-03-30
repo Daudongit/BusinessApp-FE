@@ -55,6 +55,16 @@
     .xs-none {
         display: none !important;
     }
+    ul.home-category.list-unstyled li {
+        padding: 2px;
+        font-size: 12px;
+        line-height: 18px;
+        font-family: 'Rubik', 'Nunito', sans-serif;
+    }
+    .des-sm {
+        font-size: 56%;
+        line-height: 3%;
+    }
 }
 
 @media all and (max-width: 768px) {
@@ -101,5 +111,11 @@
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
+    }
+}
+
+@media (max-width: 500px) {
+    .des-sm {
+        font-size: 46%;
     }
 }
