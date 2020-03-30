@@ -1,7 +1,7 @@
 var swiper = new Swiper('.swiper-trendingservice', {
     slidesPerView: 2,
     spaceBetween: 5,
-    loop: true,
+    loop: false,
     // init: false,
     // pagination: {
     //     el: '.swiper-pagination',
@@ -34,7 +34,7 @@ var swiper = new Swiper('.swiper-trendingservice', {
 var swiper = new Swiper('.swiper-nearbyservice', {
     slidesPerView: 2,
     spaceBetween: 5,
-    loop: true,
+    loop: false,
     // init: false,
     // pagination: {
     //     el: '.swiper-pagination',
