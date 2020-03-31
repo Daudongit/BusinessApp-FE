@@ -46,6 +46,25 @@ a:hover {
     padding: 2rem 2.3rem;
 }
 
+.btn-primary-light:not(:disabled):not(.disabled):active,
+.btn-primary-light:not(:disabled):not(.disabled).active,
+.show>.btn-primary-light.dropdown-toggle {
+    background-color: #23374D;
+    color: #fff;
+}
+
+.btn-primary-light {
+    color: #23374D;
+    background-color: #fff;
+    border-color: #23374D;
+}
+
+.btn-primary-light:hover {
+    color: #fff;
+    background-color: #565f75;
+    border-color: #23374D;
+}
+
 
 /* =================  DEFINED VARIABLES =================== */
 

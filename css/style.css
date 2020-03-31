@@ -305,3 +305,22 @@ small.stores {
 .inner:hover img {
     transform: scale(1.5);
 }
+
+.map-header {
+    height: 275px;
+}
+
+.map-header img {
+    height: 275px;
+}
+
+select.distance-select {
+    background-color: #fff;
+    border: 1px solid #23374d;
+    border-radius: 0px 3px 3px 0px;
+}
+
+.filter-group .card-header {
+    background-color: #fdfdfd;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
