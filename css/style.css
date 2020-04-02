@@ -324,3 +324,17 @@ select.distance-select {
     background-color: #fdfdfd;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
+
+.grid-5 {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+}
+
+#col-item {
+    /* grid-gap: 10px;
+    margin: 5% 5%; */
+    position: relative;
+    width: 100%;
+    padding-right: 2px;
+    padding-left: 2px;
+}
