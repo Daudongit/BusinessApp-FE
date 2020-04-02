@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/responsive.css">
 
-    <title>Shops Nearby</title>
+    <title>Search Results</title>
 </head>
 
 <body>
@@ -138,11 +138,11 @@
         <section class="product-widget  mt-5  mb-5">
             <div class="header-title pb-2 mb-3 row  justify-content-center">
 
-                <span class="intro-title col-lg-3 col-md-3  col-12 mb-1">
-                    Shops Near You
+                <span class="intro-title col-lg-4 col-md-4  col-12 mb-1">
+                    Search Keywords here
                 </span>
                 <div class="col">
-                    <span class="text-right float-right">
+                    <span class="text-right-sm float-right">
                         <div class="d-flex justify-content-end">
                             <span class="item-option-select">
                                 <span>Quick Filters:</span>
@@ -161,7 +161,20 @@
                                                     </label>
                                     </span>
 
+                    <!-- Price Range -->
+                    <span class="btn-group btn-group-sm ml-2 mb-2" role="group" aria-label="Button group with nested dropdown">
+  
+                        <button type="button" class="btn btn-primary "><img src="/img/truck-white.png" alt=""> Price</button>
+                      
+                        <div class="btn-group btn-group-sm" role="group">
+                            <select class="distance-select">
+                                <option>Low to High</option>
+                                <option>High to Low</option>
+                            </select>
+                        </div>
+                      </span>
 
+                    <!-- Price Range -->
 
                     <!-- distance -->
                     <span class="btn-group btn-group-sm ml-2 mb-2" role="group" aria-label="Button group with nested dropdown">
@@ -389,6 +402,39 @@
                         </article>
                         <!-- Product/Service  .// -->
 
+
+                        <!-- Price Range  .// -->
+                        <article class="filter-group">
+                            <header class="card-header">
+                                <a href="#" data-toggle="collapse" data-target="#collapse_price_range" aria-expanded="false" class="collapsed">
+                                    <i class="icon-control fa fa-chevron-down"></i>
+                                    <h6 class="title">Price Range</h6>
+                                </a>
+                            </header>
+                            <div class="filter-content collapse" id="collapse_price_range" style="">
+                                <div class="card-body">
+                                    <input type="range" class="custom-range" min="0" max="100" name="">
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <label>Min</label>
+                                            <input class="form-control" placeholder="$0" type="number">
+                                        </div>
+                                        <div class="form-group text-right col-md-6">
+                                            <label>Max</label>
+                                            <input class="form-control" placeholder="$1,0000" type="number">
+                                        </div>
+                                    </div>
+                                    <!-- form-row.// -->
+
+                                    <label class="custom-control custom-checkbox">
+                                 <input type="checkbox" checked="checked" class="custom-control-input">
+                                 <div class="custom-control-label">150345  - 150879345</div>
+                               </label></div>
+                                <!-- card-body.// -->
+                            </div>
+                        </article>
+                        <!-- End price range  .// -->
+
                     </div>
                     <!-- buttons -->
                     <button class="btn btn-block btn-primary mt-2">Apply Filters</button>
@@ -400,29 +446,25 @@
                     <div class="grid-5">
                         <div id="col-item" class="col mb-3">
                             <div class="w-100 card">
-                                <div class="img-wrap product-image" style="background-image: url('/img/mary-ann.png');">
+                                <div class="img-wrap product-image" style="background-image: url('/img/generator.png');">
                                     <span class="float-left  left-stat">
-                                    <img src="/img/disc.svg" alt="">
-                                </span>
+                            <img src="/img/heart-outline.png" alt="">
+                        </span>
                                     <span class="float-right right-stat">
-                                    <img src="/img/users.png" alt="">
-                                 <small>1.7k</small>
-                                </span>
+                         <small>-16%</small>
+                        </span>
                                 </div>
+                                <small class="text-black stores">Lucidia Stores</small>
                                 <div class="divider-product mx-auto"></div>
                                 <div class="info-wrap  pl-2 pr-2">
                                     <div class="product-title text-truncate ">
-                                        <a href="#">Mary-Anne Da Costa </a>
+                                        <a href="#">Lutian Power Generator</a>
                                     </div>
-                                    <small class="des-sm ">Architects, Builders and Planners</small>
+                                    <small class="des-sm text-black">Wigs for Classy Women OMG</small>
                                     <div class="small-footer mt-1 mb-2">
-                                        <span class="float-left">
-                                       <img src="/img/home.png" alt=""> <small>Port Harcourt</small>
-                                   </span>
-
-                                        <span class="float-right">
-                                    <img src="/img/truck.png" alt=""> <small>0.2 Km</small>
-                                </span>
+                                        <span class="float-left product-price">
+                              <small>N49,999</small>  <small class="ml-1 text-muted discounted">N59,999</small>
+                           </span>
                                     </div>
                                     <!-- price-wrap.// -->
                                 </div>
@@ -431,29 +473,25 @@
 
                         <div id="col-item" class="col mb-3">
                             <div class="w-100 card">
-                                <div class="img-wrap product-image" style="background-image: url('/img/ruby.png');">
+                                <div class="img-wrap product-image" style="background-image: url('/img/sneakers.png');">
                                     <span class="float-left  left-stat">
-                                        <img src="/img/disc.svg" alt="">
-                                    </span>
+                            <img src="/img/heart-outline.png" alt="">
+                        </span>
                                     <span class="float-right right-stat">
-                                        <img src="/img/users.png" alt="">
-                                     <small>166</small>
-                                    </span>
+                         <small>-16%</small>
+                        </span>
                                 </div>
+                                <small class="text-black stores">Nike stores</small>
                                 <div class="divider-product mx-auto"></div>
                                 <div class="info-wrap  pl-2 pr-2">
                                     <div class="product-title text-truncate ">
-                                        <a href="#">Ruby Fashion House </a>
+                                        <a href="#">Soft Leather Shoes</a>
                                     </div>
-                                    <small class="des-sm ">Architects, Builders and Planners</small>
+                                    <small class="des-sm text-black">Unisex, retro-sports shoe</small>
                                     <div class="small-footer mt-1 mb-2">
-                                        <span class="float-left">
-                                           <img src="/img/home.png" alt=""> <small>Benin City</small>
-                                       </span>
-
-                                        <span class="float-right">
-                                        <img src="/img/truck.png" alt=""> <small>0.2 Km</small>
-                                    </span>
+                                        <span class="float-left product-price">
+                              <small>N49,999</small>  <small class="ml-1 text-muted discounted">N59,999</small>
+                           </span>
                                     </div>
                                     <!-- price-wrap.// -->
                                 </div>
@@ -462,29 +500,25 @@
 
                         <div id="col-item" class="col mb-3">
                             <div class="w-100 card">
-                                <div class="img-wrap product-image" style="background-image: url('/img/mary-ann.png');">
+                                <div class="img-wrap product-image" style="background-image: url('/img/bag.png');">
                                     <span class="float-left  left-stat">
-                                    <img src="/img/disc.svg" alt="">
-                                </span>
+                            <img src="/img/heart-outline.png" alt="">
+                        </span>
                                     <span class="float-right right-stat">
-                                    <img src="/img/users.png" alt="">
-                                 <small>1.7k</small>
-                                </span>
+                         <small>-16%</small>
+                        </span>
                                 </div>
+                                <small class="text-black stores">Gucci stores</small>
                                 <div class="divider-product mx-auto"></div>
                                 <div class="info-wrap  pl-2 pr-2">
                                     <div class="product-title text-truncate ">
-                                        <a href="#">Mary-Anne Da Costa </a>
+                                        <a href="#">Soft Leather Bags</a>
                                     </div>
-                                    <small class="des-sm ">Architects, Builders and Planners</small>
+                                    <small class="des-sm text-black">Female, Handbag, Leather bag</small>
                                     <div class="small-footer mt-1 mb-2">
-                                        <span class="float-left">
-                                       <img src="/img/home.png" alt=""> <small>Port Harcourt</small>
-                                   </span>
-
-                                        <span class="float-right">
-                                    <img src="/img/truck.png" alt=""> <small>0.2 Km</small>
-                                </span>
+                                        <span class="float-left product-price">
+                              <small>N49,999</small>  <small class="ml-1 text-muted discounted">N59,999</small>
+                           </span>
                                     </div>
                                     <!-- price-wrap.// -->
                                 </div>
@@ -493,29 +527,25 @@
 
                         <div id="col-item" class="col mb-3">
                             <div class="w-100 card">
-                                <div class="img-wrap product-image" style="background-image: url('/img/ruby.png');">
+                                <div class="img-wrap product-image" style="background-image: url('/img/sneakers.png');">
                                     <span class="float-left  left-stat">
-                                        <img src="/img/disc.svg" alt="">
-                                    </span>
+                            <img src="/img/heart-outline.png" alt="">
+                        </span>
                                     <span class="float-right right-stat">
-                                        <img src="/img/users.png" alt="">
-                                     <small>166</small>
-                                    </span>
+                         <small>-16%</small>
+                        </span>
                                 </div>
+                                <small class="text-black stores">Nike stores</small>
                                 <div class="divider-product mx-auto"></div>
                                 <div class="info-wrap  pl-2 pr-2">
                                     <div class="product-title text-truncate ">
-                                        <a href="#">Ruby Fashion House </a>
+                                        <a href="#">Soft Leather Shoes</a>
                                     </div>
-                                    <small class="des-sm ">Architects, Builders and Planners</small>
+                                    <small class="des-sm text-black">Unisex, retro-sports shoe</small>
                                     <div class="small-footer mt-1 mb-2">
-                                        <span class="float-left">
-                                           <img src="/img/home.png" alt=""> <small>Benin City</small>
-                                       </span>
-
-                                        <span class="float-right">
-                                        <img src="/img/truck.png" alt=""> <small>0.2 Km</small>
-                                    </span>
+                                        <span class="float-left product-price">
+                              <small>N49,999</small>  <small class="ml-1 text-muted discounted">N59,999</small>
+                           </span>
                                     </div>
                                     <!-- price-wrap.// -->
                                 </div>
@@ -524,29 +554,25 @@
 
                         <div id="col-item" class="col mb-3">
                             <div class="w-100 card">
-                                <div class="img-wrap product-image" style="background-image: url('/img/mary-ann.png');">
+                                <div class="img-wrap product-image" style="background-image: url('/img/generator.png');">
                                     <span class="float-left  left-stat">
-                                    <img src="/img/disc.svg" alt="">
-                                </span>
+                            <img src="/img/heart-outline.png" alt="">
+                        </span>
                                     <span class="float-right right-stat">
-                                    <img src="/img/users.png" alt="">
-                                 <small>1.7k</small>
-                                </span>
+                         <small>-16%</small>
+                        </span>
                                 </div>
+                                <small class="text-black stores">Lucidia Stores</small>
                                 <div class="divider-product mx-auto"></div>
                                 <div class="info-wrap  pl-2 pr-2">
                                     <div class="product-title text-truncate ">
-                                        <a href="#">Mary-Anne Da Costa </a>
+                                        <a href="#">Lutian Power Generator</a>
                                     </div>
-                                    <small class="des-sm ">Architects, Builders and Planners</small>
+                                    <small class="des-sm text-black">Wigs for Classy Women OMG</small>
                                     <div class="small-footer mt-1 mb-2">
-                                        <span class="float-left">
-                                       <img src="/img/home.png" alt=""> <small>Port Harcourt</small>
-                                   </span>
-
-                                        <span class="float-right">
-                                    <img src="/img/truck.png" alt=""> <small>0.2 Km</small>
-                                </span>
+                                        <span class="float-left product-price">
+                              <small>N49,999</small>  <small class="ml-1 text-muted discounted">N59,999</small>
+                           </span>
                                     </div>
                                     <!-- price-wrap.// -->
                                 </div>
@@ -555,29 +581,25 @@
 
                         <div id="col-item" class="col mb-3">
                             <div class="w-100 card">
-                                <div class="img-wrap product-image" style="background-image: url('/img/ruby.png');">
+                                <div class="img-wrap product-image" style="background-image: url('/img/generator.png');">
                                     <span class="float-left  left-stat">
-                                        <img src="/img/disc.svg" alt="">
-                                    </span>
+                            <img src="/img/heart-outline.png" alt="">
+                        </span>
                                     <span class="float-right right-stat">
-                                        <img src="/img/users.png" alt="">
-                                     <small>166</small>
-                                    </span>
+                         <small>-16%</small>
+                        </span>
                                 </div>
+                                <small class="text-black stores">Lucidia Stores</small>
                                 <div class="divider-product mx-auto"></div>
                                 <div class="info-wrap  pl-2 pr-2">
                                     <div class="product-title text-truncate ">
-                                        <a href="#">Ruby Fashion House </a>
+                                        <a href="#">Lutian Power Generator</a>
                                     </div>
-                                    <small class="des-sm ">Architects, Builders and Planners</small>
+                                    <small class="des-sm text-black">Wigs for Classy Women OMG</small>
                                     <div class="small-footer mt-1 mb-2">
-                                        <span class="float-left">
-                                           <img src="/img/home.png" alt=""> <small>Benin City</small>
-                                       </span>
-
-                                        <span class="float-right">
-                                        <img src="/img/truck.png" alt=""> <small>0.2 Km</small>
-                                    </span>
+                                        <span class="float-left product-price">
+                              <small>N49,999</small>  <small class="ml-1 text-muted discounted">N59,999</small>
+                           </span>
                                     </div>
                                     <!-- price-wrap.// -->
                                 </div>
@@ -586,29 +608,25 @@
 
                         <div id="col-item" class="col mb-3">
                             <div class="w-100 card">
-                                <div class="img-wrap product-image" style="background-image: url('/img/mary-ann.png');">
+                                <div class="img-wrap product-image" style="background-image: url('/img/sneakers.png');">
                                     <span class="float-left  left-stat">
-                                    <img src="/img/disc.svg" alt="">
-                                </span>
+                            <img src="/img/heart-outline.png" alt="">
+                        </span>
                                     <span class="float-right right-stat">
-                                    <img src="/img/users.png" alt="">
-                                 <small>1.7k</small>
-                                </span>
+                         <small>-16%</small>
+                        </span>
                                 </div>
+                                <small class="text-black stores">Nike stores</small>
                                 <div class="divider-product mx-auto"></div>
                                 <div class="info-wrap  pl-2 pr-2">
                                     <div class="product-title text-truncate ">
-                                        <a href="#">Mary-Anne Da Costa </a>
+                                        <a href="#">Soft Leather Shoes</a>
                                     </div>
-                                    <small class="des-sm ">Architects, Builders and Planners</small>
+                                    <small class="des-sm text-black">Unisex, retro-sports shoe</small>
                                     <div class="small-footer mt-1 mb-2">
-                                        <span class="float-left">
-                                       <img src="/img/home.png" alt=""> <small>Port Harcourt</small>
-                                   </span>
-
-                                        <span class="float-right">
-                                    <img src="/img/truck.png" alt=""> <small>0.2 Km</small>
-                                </span>
+                                        <span class="float-left product-price">
+                              <small>N49,999</small>  <small class="ml-1 text-muted discounted">N59,999</small>
+                           </span>
                                     </div>
                                     <!-- price-wrap.// -->
                                 </div>
@@ -617,61 +635,25 @@
 
                         <div id="col-item" class="col mb-3">
                             <div class="w-100 card">
-                                <div class="img-wrap product-image" style="background-image: url('/img/ruby.png');">
+                                <div class="img-wrap product-image" style="background-image: url('/img/bag.png');">
                                     <span class="float-left  left-stat">
-                                        <img src="/img/disc.svg" alt="">
-                                    </span>
+                            <img src="/img/heart-outline.png" alt="">
+                        </span>
                                     <span class="float-right right-stat">
-                                        <img src="/img/users.png" alt="">
-                                     <small>166</small>
-                                    </span>
+                         <small>-16%</small>
+                        </span>
                                 </div>
+                                <small class="text-black stores">Gucci stores</small>
                                 <div class="divider-product mx-auto"></div>
                                 <div class="info-wrap  pl-2 pr-2">
                                     <div class="product-title text-truncate ">
-                                        <a href="#">Ruby Fashion House </a>
+                                        <a href="#">Soft Leather Bags</a>
                                     </div>
-                                    <small class="des-sm ">Architects, Builders and Planners</small>
+                                    <small class="des-sm text-black">Female, Handbag, Leather bag</small>
                                     <div class="small-footer mt-1 mb-2">
-                                        <span class="float-left">
-                                           <img src="/img/home.png" alt=""> <small>Benin City</small>
-                                       </span>
-
-                                        <span class="float-right">
-                                        <img src="/img/truck.png" alt=""> <small>0.2 Km</small>
-                                    </span>
-                                    </div>
-                                    <!-- price-wrap.// -->
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div id="col-item" class="col mb-3">
-                            <div class="w-100 card">
-                                <div class="img-wrap product-image" style="background-image: url('/img/mary-ann.png');">
-                                    <span class="float-left  left-stat">
-                                    <img src="/img/disc.svg" alt="">
-                                </span>
-                                    <span class="float-right right-stat">
-                                    <img src="/img/users.png" alt="">
-                                 <small>1.7k</small>
-                                </span>
-                                </div>
-                                <div class="divider-product mx-auto"></div>
-                                <div class="info-wrap  pl-2 pr-2">
-                                    <div class="product-title text-truncate ">
-                                        <a href="#">Mary-Anne Da Costa </a>
-                                    </div>
-                                    <small class="des-sm ">Architects, Builders and Planners</small>
-                                    <div class="small-footer mt-1 mb-2">
-                                        <span class="float-left">
-                                       <img src="/img/home.png" alt=""> <small>Port Harcourt</small>
-                                   </span>
-
-                                        <span class="float-right">
-                                    <img src="/img/truck.png" alt=""> <small>0.2 Km</small>
-                                </span>
+                                        <span class="float-left product-price">
+                              <small>N49,999</small>  <small class="ml-1 text-muted discounted">N59,999</small>
+                           </span>
                                     </div>
                                     <!-- price-wrap.// -->
                                 </div>
@@ -680,29 +662,25 @@
 
                         <div id="col-item" class="col mb-3">
                             <div class="w-100 card">
-                                <div class="img-wrap product-image" style="background-image: url('/img/ruby.png');">
+                                <div class="img-wrap product-image" style="background-image: url('/img/sneakers.png');">
                                     <span class="float-left  left-stat">
-                                        <img src="/img/disc.svg" alt="">
-                                    </span>
+                            <img src="/img/heart-outline.png" alt="">
+                        </span>
                                     <span class="float-right right-stat">
-                                        <img src="/img/users.png" alt="">
-                                     <small>166</small>
-                                    </span>
+                         <small>-16%</small>
+                        </span>
                                 </div>
+                                <small class="text-black stores">Nike stores</small>
                                 <div class="divider-product mx-auto"></div>
                                 <div class="info-wrap  pl-2 pr-2">
                                     <div class="product-title text-truncate ">
-                                        <a href="#">Ruby Fashion House </a>
+                                        <a href="#">Soft Leather Shoes</a>
                                     </div>
-                                    <small class="des-sm ">Architects, Builders and Planners</small>
+                                    <small class="des-sm text-black">Unisex, retro-sports shoe</small>
                                     <div class="small-footer mt-1 mb-2">
-                                        <span class="float-left">
-                                           <img src="/img/home.png" alt=""> <small>Benin City</small>
-                                       </span>
-
-                                        <span class="float-right">
-                                        <img src="/img/truck.png" alt=""> <small>0.2 Km</small>
-                                    </span>
+                                        <span class="float-left product-price">
+                              <small>N49,999</small>  <small class="ml-1 text-muted discounted">N59,999</small>
+                           </span>
                                     </div>
                                     <!-- price-wrap.// -->
                                 </div>
@@ -711,29 +689,25 @@
 
                         <div id="col-item" class="col mb-3">
                             <div class="w-100 card">
-                                <div class="img-wrap product-image" style="background-image: url('/img/mary-ann.png');">
+                                <div class="img-wrap product-image" style="background-image: url('/img/generator.png');">
                                     <span class="float-left  left-stat">
-                                    <img src="/img/disc.svg" alt="">
-                                </span>
+                            <img src="/img/heart-outline.png" alt="">
+                        </span>
                                     <span class="float-right right-stat">
-                                    <img src="/img/users.png" alt="">
-                                 <small>1.7k</small>
-                                </span>
+                         <small>-16%</small>
+                        </span>
                                 </div>
+                                <small class="text-black stores">Lucidia Stores</small>
                                 <div class="divider-product mx-auto"></div>
                                 <div class="info-wrap  pl-2 pr-2">
                                     <div class="product-title text-truncate ">
-                                        <a href="#">Mary-Anne Da Costa </a>
+                                        <a href="#">Lutian Power Generator</a>
                                     </div>
-                                    <small class="des-sm ">Architects, Builders and Planners</small>
+                                    <small class="des-sm text-black">Wigs for Classy Women OMG</small>
                                     <div class="small-footer mt-1 mb-2">
-                                        <span class="float-left">
-                                       <img src="/img/home.png" alt=""> <small>Port Harcourt</small>
-                                   </span>
-
-                                        <span class="float-right">
-                                    <img src="/img/truck.png" alt=""> <small>0.2 Km</small>
-                                </span>
+                                        <span class="float-left product-price">
+                              <small>N49,999</small>  <small class="ml-1 text-muted discounted">N59,999</small>
+                           </span>
                                     </div>
                                     <!-- price-wrap.// -->
                                 </div>
@@ -742,61 +716,25 @@
 
                         <div id="col-item" class="col mb-3">
                             <div class="w-100 card">
-                                <div class="img-wrap product-image" style="background-image: url('/img/ruby.png');">
+                                <div class="img-wrap product-image" style="background-image: url('/img/generator.png');">
                                     <span class="float-left  left-stat">
-                                        <img src="/img/disc.svg" alt="">
-                                    </span>
+                            <img src="/img/heart-outline.png" alt="">
+                        </span>
                                     <span class="float-right right-stat">
-                                        <img src="/img/users.png" alt="">
-                                     <small>166</small>
-                                    </span>
+                         <small>-16%</small>
+                        </span>
                                 </div>
+                                <small class="text-black stores">Lucidia Stores</small>
                                 <div class="divider-product mx-auto"></div>
                                 <div class="info-wrap  pl-2 pr-2">
                                     <div class="product-title text-truncate ">
-                                        <a href="#">Ruby Fashion House </a>
+                                        <a href="#">Lutian Power Generator</a>
                                     </div>
-                                    <small class="des-sm ">Architects, Builders and Planners</small>
+                                    <small class="des-sm text-black">Wigs for Classy Women OMG</small>
                                     <div class="small-footer mt-1 mb-2">
-                                        <span class="float-left">
-                                           <img src="/img/home.png" alt=""> <small>Benin City</small>
-                                       </span>
-
-                                        <span class="float-right">
-                                        <img src="/img/truck.png" alt=""> <small>0.2 Km</small>
-                                    </span>
-                                    </div>
-                                    <!-- price-wrap.// -->
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div id="col-item" class="col mb-3">
-                            <div class="w-100 card">
-                                <div class="img-wrap product-image" style="background-image: url('/img/ruby.png');">
-                                    <span class="float-left  left-stat">
-                                        <img src="/img/disc.svg" alt="">
-                                    </span>
-                                    <span class="float-right right-stat">
-                                        <img src="/img/users.png" alt="">
-                                     <small>166</small>
-                                    </span>
-                                </div>
-                                <div class="divider-product mx-auto"></div>
-                                <div class="info-wrap  pl-2 pr-2">
-                                    <div class="product-title text-truncate ">
-                                        <a href="#">Ruby Fashion House </a>
-                                    </div>
-                                    <small class="des-sm ">Architects, Builders and Planners</small>
-                                    <div class="small-footer mt-1 mb-2">
-                                        <span class="float-left">
-                                           <img src="/img/home.png" alt=""> <small>Benin City</small>
-                                       </span>
-
-                                        <span class="float-right">
-                                        <img src="/img/truck.png" alt=""> <small>0.2 Km</small>
-                                    </span>
+                                        <span class="float-left product-price">
+                              <small>N49,999</small>  <small class="ml-1 text-muted discounted">N59,999</small>
+                           </span>
                                     </div>
                                     <!-- price-wrap.// -->
                                 </div>
@@ -805,29 +743,25 @@
 
                         <div id="col-item" class="col mb-3">
                             <div class="w-100 card">
-                                <div class="img-wrap product-image" style="background-image: url('/img/mary-ann.png');">
+                                <div class="img-wrap product-image" style="background-image: url('/img/sneakers.png');">
                                     <span class="float-left  left-stat">
-                                    <img src="/img/disc.svg" alt="">
-                                </span>
+                            <img src="/img/heart-outline.png" alt="">
+                        </span>
                                     <span class="float-right right-stat">
-                                    <img src="/img/users.png" alt="">
-                                 <small>1.7k</small>
-                                </span>
+                         <small>-16%</small>
+                        </span>
                                 </div>
+                                <small class="text-black stores">Nike stores</small>
                                 <div class="divider-product mx-auto"></div>
                                 <div class="info-wrap  pl-2 pr-2">
                                     <div class="product-title text-truncate ">
-                                        <a href="#">Mary-Anne Da Costa </a>
+                                        <a href="#">Soft Leather Shoes</a>
                                     </div>
-                                    <small class="des-sm ">Architects, Builders and Planners</small>
+                                    <small class="des-sm text-black">Unisex, retro-sports shoe</small>
                                     <div class="small-footer mt-1 mb-2">
-                                        <span class="float-left">
-                                       <img src="/img/home.png" alt=""> <small>Port Harcourt</small>
-                                   </span>
-
-                                        <span class="float-right">
-                                    <img src="/img/truck.png" alt=""> <small>0.2 Km</small>
-                                </span>
+                                        <span class="float-left product-price">
+                              <small>N49,999</small>  <small class="ml-1 text-muted discounted">N59,999</small>
+                           </span>
                                     </div>
                                     <!-- price-wrap.// -->
                                 </div>
@@ -836,29 +770,25 @@
 
                         <div id="col-item" class="col mb-3">
                             <div class="w-100 card">
-                                <div class="img-wrap product-image" style="background-image: url('/img/ruby.png');">
+                                <div class="img-wrap product-image" style="background-image: url('/img/bag.png');">
                                     <span class="float-left  left-stat">
-                                        <img src="/img/disc.svg" alt="">
-                                    </span>
+                            <img src="/img/heart-outline.png" alt="">
+                        </span>
                                     <span class="float-right right-stat">
-                                        <img src="/img/users.png" alt="">
-                                     <small>166</small>
-                                    </span>
+                         <small>-16%</small>
+                        </span>
                                 </div>
+                                <small class="text-black stores">Gucci stores</small>
                                 <div class="divider-product mx-auto"></div>
                                 <div class="info-wrap  pl-2 pr-2">
                                     <div class="product-title text-truncate ">
-                                        <a href="#">Ruby Fashion House </a>
+                                        <a href="#">Soft Leather Bags</a>
                                     </div>
-                                    <small class="des-sm ">Architects, Builders and Planners</small>
+                                    <small class="des-sm text-black">Female, Handbag, Leather bag</small>
                                     <div class="small-footer mt-1 mb-2">
-                                        <span class="float-left">
-                                           <img src="/img/home.png" alt=""> <small>Benin City</small>
-                                       </span>
-
-                                        <span class="float-right">
-                                        <img src="/img/truck.png" alt=""> <small>0.2 Km</small>
-                                    </span>
+                                        <span class="float-left product-price">
+                              <small>N49,999</small>  <small class="ml-1 text-muted discounted">N59,999</small>
+                           </span>
                                     </div>
                                     <!-- price-wrap.// -->
                                 </div>
@@ -867,29 +797,25 @@
 
                         <div id="col-item" class="col mb-3">
                             <div class="w-100 card">
-                                <div class="img-wrap product-image" style="background-image: url('/img/mary-ann.png');">
+                                <div class="img-wrap product-image" style="background-image: url('/img/sneakers.png');">
                                     <span class="float-left  left-stat">
-                                    <img src="/img/disc.svg" alt="">
-                                </span>
+                            <img src="/img/heart-outline.png" alt="">
+                        </span>
                                     <span class="float-right right-stat">
-                                    <img src="/img/users.png" alt="">
-                                 <small>1.7k</small>
-                                </span>
+                         <small>-16%</small>
+                        </span>
                                 </div>
+                                <small class="text-black stores">Nike stores</small>
                                 <div class="divider-product mx-auto"></div>
                                 <div class="info-wrap  pl-2 pr-2">
                                     <div class="product-title text-truncate ">
-                                        <a href="#">Mary-Anne Da Costa </a>
+                                        <a href="#">Soft Leather Shoes</a>
                                     </div>
-                                    <small class="des-sm ">Architects, Builders and Planners</small>
+                                    <small class="des-sm text-black">Unisex, retro-sports shoe</small>
                                     <div class="small-footer mt-1 mb-2">
-                                        <span class="float-left">
-                                       <img src="/img/home.png" alt=""> <small>Port Harcourt</small>
-                                   </span>
-
-                                        <span class="float-right">
-                                    <img src="/img/truck.png" alt=""> <small>0.2 Km</small>
-                                </span>
+                                        <span class="float-left product-price">
+                              <small>N49,999</small>  <small class="ml-1 text-muted discounted">N59,999</small>
+                           </span>
                                     </div>
                                     <!-- price-wrap.// -->
                                 </div>
@@ -898,29 +824,25 @@
 
                         <div id="col-item" class="col mb-3">
                             <div class="w-100 card">
-                                <div class="img-wrap product-image" style="background-image: url('/img/ruby.png');">
+                                <div class="img-wrap product-image" style="background-image: url('/img/generator.png');">
                                     <span class="float-left  left-stat">
-                                        <img src="/img/disc.svg" alt="">
-                                    </span>
+                            <img src="/img/heart-outline.png" alt="">
+                        </span>
                                     <span class="float-right right-stat">
-                                        <img src="/img/users.png" alt="">
-                                     <small>166</small>
-                                    </span>
+                         <small>-16%</small>
+                        </span>
                                 </div>
+                                <small class="text-black stores">Lucidia Stores</small>
                                 <div class="divider-product mx-auto"></div>
                                 <div class="info-wrap  pl-2 pr-2">
                                     <div class="product-title text-truncate ">
-                                        <a href="#">Ruby Fashion House </a>
+                                        <a href="#">Lutian Power Generator</a>
                                     </div>
-                                    <small class="des-sm ">Architects, Builders and Planners</small>
+                                    <small class="des-sm text-black">Wigs for Classy Women OMG</small>
                                     <div class="small-footer mt-1 mb-2">
-                                        <span class="float-left">
-                                           <img src="/img/home.png" alt=""> <small>Benin City</small>
-                                       </span>
-
-                                        <span class="float-right">
-                                        <img src="/img/truck.png" alt=""> <small>0.2 Km</small>
-                                    </span>
+                                        <span class="float-left product-price">
+                              <small>N49,999</small>  <small class="ml-1 text-muted discounted">N59,999</small>
+                           </span>
                                     </div>
                                     <!-- price-wrap.// -->
                                 </div>
@@ -930,29 +852,25 @@
 
                         <div id="col-item" class="col mb-3">
                             <div class="w-100 card">
-                                <div class="img-wrap product-image" style="background-image: url('/img/ruby.png');">
+                                <div class="img-wrap product-image" style="background-image: url('/img/generator.png');">
                                     <span class="float-left  left-stat">
-                                        <img src="/img/disc.svg" alt="">
-                                    </span>
+                            <img src="/img/heart-outline.png" alt="">
+                        </span>
                                     <span class="float-right right-stat">
-                                        <img src="/img/users.png" alt="">
-                                     <small>166</small>
-                                    </span>
+                         <small>-16%</small>
+                        </span>
                                 </div>
+                                <small class="text-black stores">Lucidia Stores</small>
                                 <div class="divider-product mx-auto"></div>
                                 <div class="info-wrap  pl-2 pr-2">
                                     <div class="product-title text-truncate ">
-                                        <a href="#">Ruby Fashion House </a>
+                                        <a href="#">Lutian Power Generator</a>
                                     </div>
-                                    <small class="des-sm ">Architects, Builders and Planners</small>
+                                    <small class="des-sm text-black">Wigs for Classy Women OMG</small>
                                     <div class="small-footer mt-1 mb-2">
-                                        <span class="float-left">
-                                           <img src="/img/home.png" alt=""> <small>Benin City</small>
-                                       </span>
-
-                                        <span class="float-right">
-                                        <img src="/img/truck.png" alt=""> <small>0.2 Km</small>
-                                    </span>
+                                        <span class="float-left product-price">
+                              <small>N49,999</small>  <small class="ml-1 text-muted discounted">N59,999</small>
+                           </span>
                                     </div>
                                     <!-- price-wrap.// -->
                                 </div>
@@ -961,29 +879,25 @@
 
                         <div id="col-item" class="col mb-3">
                             <div class="w-100 card">
-                                <div class="img-wrap product-image" style="background-image: url('/img/mary-ann.png');">
+                                <div class="img-wrap product-image" style="background-image: url('/img/sneakers.png');">
                                     <span class="float-left  left-stat">
-                                    <img src="/img/disc.svg" alt="">
-                                </span>
+                            <img src="/img/heart-outline.png" alt="">
+                        </span>
                                     <span class="float-right right-stat">
-                                    <img src="/img/users.png" alt="">
-                                 <small>1.7k</small>
-                                </span>
+                         <small>-16%</small>
+                        </span>
                                 </div>
+                                <small class="text-black stores">Nike stores</small>
                                 <div class="divider-product mx-auto"></div>
                                 <div class="info-wrap  pl-2 pr-2">
                                     <div class="product-title text-truncate ">
-                                        <a href="#">Mary-Anne Da Costa </a>
+                                        <a href="#">Soft Leather Shoes</a>
                                     </div>
-                                    <small class="des-sm ">Architects, Builders and Planners</small>
+                                    <small class="des-sm text-black">Unisex, retro-sports shoe</small>
                                     <div class="small-footer mt-1 mb-2">
-                                        <span class="float-left">
-                                       <img src="/img/home.png" alt=""> <small>Port Harcourt</small>
-                                   </span>
-
-                                        <span class="float-right">
-                                    <img src="/img/truck.png" alt=""> <small>0.2 Km</small>
-                                </span>
+                                        <span class="float-left product-price">
+                              <small>N49,999</small>  <small class="ml-1 text-muted discounted">N59,999</small>
+                           </span>
                                     </div>
                                     <!-- price-wrap.// -->
                                 </div>
@@ -992,29 +906,79 @@
 
                         <div id="col-item" class="col mb-3">
                             <div class="w-100 card">
-                                <div class="img-wrap product-image" style="background-image: url('/img/ruby.png');">
+                                <div class="img-wrap product-image" style="background-image: url('/img/bag.png');">
                                     <span class="float-left  left-stat">
-                                        <img src="/img/disc.svg" alt="">
-                                    </span>
+                            <img src="/img/heart-outline.png" alt="">
+                        </span>
                                     <span class="float-right right-stat">
-                                        <img src="/img/users.png" alt="">
-                                     <small>166</small>
-                                    </span>
+                         <small>-16%</small>
+                        </span>
                                 </div>
+                                <small class="text-black stores">Gucci stores</small>
                                 <div class="divider-product mx-auto"></div>
                                 <div class="info-wrap  pl-2 pr-2">
                                     <div class="product-title text-truncate ">
-                                        <a href="#">Ruby Fashion House </a>
+                                        <a href="#">Soft Leather Bags</a>
                                     </div>
-                                    <small class="des-sm ">Architects, Builders and Planners</small>
+                                    <small class="des-sm text-black">Female, Handbag, Leather bag</small>
                                     <div class="small-footer mt-1 mb-2">
-                                        <span class="float-left">
-                                           <img src="/img/home.png" alt=""> <small>Benin City</small>
-                                       </span>
+                                        <span class="float-left product-price">
+                              <small>N49,999</small>  <small class="ml-1 text-muted discounted">N59,999</small>
+                           </span>
+                                    </div>
+                                    <!-- price-wrap.// -->
+                                </div>
+                            </div>
+                        </div>
 
-                                        <span class="float-right">
-                                        <img src="/img/truck.png" alt=""> <small>0.2 Km</small>
-                                    </span>
+                        <div id="col-item" class="col mb-3">
+                            <div class="w-100 card">
+                                <div class="img-wrap product-image" style="background-image: url('/img/sneakers.png');">
+                                    <span class="float-left  left-stat">
+                            <img src="/img/heart-outline.png" alt="">
+                        </span>
+                                    <span class="float-right right-stat">
+                         <small>-16%</small>
+                        </span>
+                                </div>
+                                <small class="text-black stores">Nike stores</small>
+                                <div class="divider-product mx-auto"></div>
+                                <div class="info-wrap  pl-2 pr-2">
+                                    <div class="product-title text-truncate ">
+                                        <a href="#">Soft Leather Shoes</a>
+                                    </div>
+                                    <small class="des-sm text-black">Unisex, retro-sports shoe</small>
+                                    <div class="small-footer mt-1 mb-2">
+                                        <span class="float-left product-price">
+                              <small>N49,999</small>  <small class="ml-1 text-muted discounted">N59,999</small>
+                           </span>
+                                    </div>
+                                    <!-- price-wrap.// -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="col-item" class="col mb-3">
+                            <div class="w-100 card">
+                                <div class="img-wrap product-image" style="background-image: url('/img/generator.png');">
+                                    <span class="float-left  left-stat">
+                            <img src="/img/heart-outline.png" alt="">
+                        </span>
+                                    <span class="float-right right-stat">
+                         <small>-16%</small>
+                        </span>
+                                </div>
+                                <small class="text-black stores">Lucidia Stores</small>
+                                <div class="divider-product mx-auto"></div>
+                                <div class="info-wrap  pl-2 pr-2">
+                                    <div class="product-title text-truncate ">
+                                        <a href="#">Lutian Power Generator</a>
+                                    </div>
+                                    <small class="des-sm text-black">Wigs for Classy Women OMG</small>
+                                    <div class="small-footer mt-1 mb-2">
+                                        <span class="float-left product-price">
+                              <small>N49,999</small>  <small class="ml-1 text-muted discounted">N59,999</small>
+                           </span>
                                     </div>
                                     <!-- price-wrap.// -->
                                 </div>
