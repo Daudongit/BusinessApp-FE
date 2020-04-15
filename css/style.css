@@ -432,3 +432,25 @@ img.img-100 {
     width: 100px;
     height: 100px;
 }
+
+.bordered-map {
+    border: 1px solid #23374D;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.bordered-map img,
+.bordered-map iframe {
+    height: 250px;
+}
+
+.single-store .label-rating {
+    margin-left: 7px;
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+
+.single-store .label-rating img {
+    width: 20px;
+    height: 20px;
+}
