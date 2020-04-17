@@ -130,3 +130,37 @@ var swiper = new Swiper('.swiper-topproduct', {
         },
     }
 });
+
+
+var swiper = new Swiper('.swiper-singleproduct', {
+    slidesPerView: 1,
+    spaceBetween: 5,
+    loop: false,
+    // uniqueNavElements: true,
+    // init: false,
+    // pagination: {
+    //     el: '.swiper-pagination',
+    //     clickable: true,
+    // },
+
+    // Navigation arrows
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+
+    breakpoints: {
+        640: {
+            slidesPerView: 2,
+            spaceBetween: 5,
+        },
+        768: {
+            slidesPerView: 3,
+            spaceBetween: 5,
+        },
+        1024: {
+            slidesPerView: 3,
+            spaceBetween: 5,
+        },
+    }
+});

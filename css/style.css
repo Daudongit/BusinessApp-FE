@@ -1,3 +1,7 @@
+:root {
+    --swiper-theme-color: #343a40;
+}
+
 html {
     font-family: 'Rubik', 'Nunito', sans-serif;
 }
@@ -453,4 +457,47 @@ img.img-100 {
 .single-store .label-rating img {
     width: 20px;
     height: 20px;
+}
+
+.swiper-singleproduct .swiper-slide {
+    background: #eee;
+}
+
+.swiper-singleproduct .single-product-image,
+.swiper-singleproduct .single-product-image img {
+    min-height: 300px;
+    max-height: 400px;
+    width: 100%;
+}
+
+.strickthrough {
+    text-decoration-line: line-through;
+    color: #A5A5A5;
+}
+
+.single-rating-widget,
+.single-rating-widget .card-header {
+    background: #E5E5E5;
+    border-radius: 3px;
+}
+
+.single-rating-widget .rating-stars i {
+    font-size: 14px;
+    color: #fff;
+    display: inline;
+}
+
+.single-rating-widget .rating-stars li.stars-active i {
+    color: #23374D;
+}
+
+.darker-tab {
+    background: #E5E5E5;
+    border-radius: 0px 3px;
+}
+
+.single-product .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
 }
